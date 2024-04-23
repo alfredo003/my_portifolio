@@ -1,0 +1,44 @@
+header{
+    color: #fff; 
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.myPhoto{
+    margin-right: 40px;
+    width: 150px;
+}
+.myPhoto img{
+    width:100%;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 36pt;
+    margin-bottom: -17px;
+}
+.gradient {
+    font-size: 5rem;
+
+    /* Set the background of 
+        the text  */
+    background:
+    linear-gradient(97.57deg, #29e0a9 -12.7%, #5f75f2 32.64%, #9956f6 78.49%, #e254ff 109.78%); 
+
+    display: inline-block;
+
+    /* Clip the background upto
+        the text  */
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Set the color of the text
+        to transparent  */
+    color: transparent;
+}
+
+p{
+    font-weight: bold;
+    font-size: 17pt;
+    text-transform: capitalize;
+}
